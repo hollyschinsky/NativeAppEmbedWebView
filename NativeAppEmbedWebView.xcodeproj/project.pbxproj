@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1731DF361649A31E00DFCD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF351649A31E00DFCD35 /* UIKit.framework */; };
+		1731DF381649A31E00DFCD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF371649A31E00DFCD35 /* Foundation.framework */; };
+		1731DF3A1649A31E00DFCD35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF391649A31E00DFCD35 /* CoreGraphics.framework */; };
+		1731DF401649A31E00DFCD35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1731DF3E1649A31E00DFCD35 /* InfoPlist.strings */; };
+		1731DF421649A31E00DFCD35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1731DF411649A31E00DFCD35 /* main.m */; };
+		1731DF461649A31E00DFCD35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1731DF451649A31E00DFCD35 /* AppDelegate.m */; };
+		1731DF491649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1731DF471649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard */; };
+		1731DF4C1649A31E00DFCD35 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1731DF4A1649A31E00DFCD35 /* MainStoryboard_iPad.storyboard */; };
+		1731DF4F1649A31E00DFCD35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1731DF4E1649A31E00DFCD35 /* ViewController.m */; };
+		1731DF571649A31E00DFCD35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF561649A31E00DFCD35 /* SenTestingKit.framework */; };
+		1731DF581649A31E00DFCD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF351649A31E00DFCD35 /* UIKit.framework */; };
+		1731DF591649A31E00DFCD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF371649A31E00DFCD35 /* Foundation.framework */; };
+		1731DF611649A31E00DFCD35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1731DF5F1649A31E00DFCD35 /* InfoPlist.strings */; };
+		1731DF641649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1731DF631649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1731DF5A1649A31E00DFCD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1731DF281649A31E00DFCD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1731DF301649A31E00DFCD35;
+			remoteInfo = NativeAppEmbedWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1731DF311649A31E00DFCD35 /* NativeAppEmbedWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeAppEmbedWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1731DF351649A31E00DFCD35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1731DF371649A31E00DFCD35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1731DF391649A31E00DFCD35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1731DF3D1649A31E00DFCD35 /* NativeAppEmbedWebView-Info.plist */ = {isa = PBXFileReference; path = "NativeAppEmbedWebView-Info.plist"; sourceTree = "<group>"; };
+		1731DF3F1649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1731DF411649A31E00DFCD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1731DF431649A31E00DFCD35 /* NativeAppEmbedWebView-Prefix.pch */ = {isa = PBXFileReference; path = "NativeAppEmbedWebView-Prefix.pch"; sourceTree = "<group>"; };
+		1731DF441649A31E00DFCD35 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1731DF451649A31E00DFCD35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1731DF481649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1731DF4B1649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1731DF4D1649A31E00DFCD35 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1731DF4E1649A31E00DFCD35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1731DF551649A31E00DFCD35 /* NativeAppEmbedWebViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeAppEmbedWebViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1731DF561649A31E00DFCD35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1731DF5E1649A31E00DFCD35 /* NativeAppEmbedWebViewTests-Info.plist */ = {isa = PBXFileReference; path = "NativeAppEmbedWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		1731DF601649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1731DF621649A31E00DFCD35 /* NativeAppEmbedWebViewTests.h */ = {isa = PBXFileReference; path = NativeAppEmbedWebViewTests.h; sourceTree = "<group>"; };
+		1731DF631649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAppEmbedWebViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1731DF2E1649A31E00DFCD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731DF361649A31E00DFCD35 /* UIKit.framework in Frameworks */,
+				1731DF381649A31E00DFCD35 /* Foundation.framework in Frameworks */,
+				1731DF3A1649A31E00DFCD35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1731DF511649A31E00DFCD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731DF571649A31E00DFCD35 /* SenTestingKit.framework in Frameworks */,
+				1731DF581649A31E00DFCD35 /* UIKit.framework in Frameworks */,
+				1731DF591649A31E00DFCD35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1731DF261649A31E00DFCD35 = {
+			isa = PBXGroup;
+			children = (
+				1731DF3B1649A31E00DFCD35 /* NativeAppEmbedWebView */,
+				1731DF5C1649A31E00DFCD35 /* NativeAppEmbedWebViewTests */,
+				1731DF341649A31E00DFCD35 /* Frameworks */,
+				1731DF321649A31E00DFCD35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1731DF321649A31E00DFCD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1731DF311649A31E00DFCD35 /* NativeAppEmbedWebView.app */,
+				1731DF551649A31E00DFCD35 /* NativeAppEmbedWebViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1731DF341649A31E00DFCD35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1731DF351649A31E00DFCD35 /* UIKit.framework */,
+				1731DF371649A31E00DFCD35 /* Foundation.framework */,
+				1731DF391649A31E00DFCD35 /* CoreGraphics.framework */,
+				1731DF561649A31E00DFCD35 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1731DF3B1649A31E00DFCD35 /* NativeAppEmbedWebView */ = {
+			isa = PBXGroup;
+			children = (
+				1731DF441649A31E00DFCD35 /* AppDelegate.h */,
+				1731DF451649A31E00DFCD35 /* AppDelegate.m */,
+				1731DF471649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard */,
+				1731DF4A1649A31E00DFCD35 /* MainStoryboard_iPad.storyboard */,
+				1731DF4D1649A31E00DFCD35 /* ViewController.h */,
+				1731DF4E1649A31E00DFCD35 /* ViewController.m */,
+				1731DF3C1649A31E00DFCD35 /* Supporting Files */,
+			);
+			path = NativeAppEmbedWebView;
+			sourceTree = "<group>";
+		};
+		1731DF3C1649A31E00DFCD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1731DF3D1649A31E00DFCD35 /* NativeAppEmbedWebView-Info.plist */,
+				1731DF3E1649A31E00DFCD35 /* InfoPlist.strings */,
+				1731DF411649A31E00DFCD35 /* main.m */,
+				1731DF431649A31E00DFCD35 /* NativeAppEmbedWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1731DF5C1649A31E00DFCD35 /* NativeAppEmbedWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1731DF621649A31E00DFCD35 /* NativeAppEmbedWebViewTests.h */,
+				1731DF631649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m */,
+				1731DF5D1649A31E00DFCD35 /* Supporting Files */,
+			);
+			path = NativeAppEmbedWebViewTests;
+			sourceTree = "<group>";
+		};
+		1731DF5D1649A31E00DFCD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1731DF5E1649A31E00DFCD35 /* NativeAppEmbedWebViewTests-Info.plist */,
+				1731DF5F1649A31E00DFCD35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1731DF301649A31E00DFCD35 /* NativeAppEmbedWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1731DF671649A31E00DFCD35 /* Build configuration list for PBXNativeTarget "NativeAppEmbedWebView" */;
+			buildPhases = (
+				1731DF2D1649A31E00DFCD35 /* Sources */,
+				1731DF2E1649A31E00DFCD35 /* Frameworks */,
+				1731DF2F1649A31E00DFCD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeAppEmbedWebView;
+			productName = NativeAppEmbedWebView;
+			productReference = 1731DF311649A31E00DFCD35 /* NativeAppEmbedWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1731DF541649A31E00DFCD35 /* NativeAppEmbedWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1731DF6A1649A31E00DFCD35 /* Build configuration list for PBXNativeTarget "NativeAppEmbedWebViewTests" */;
+			buildPhases = (
+				1731DF501649A31E00DFCD35 /* Sources */,
+				1731DF511649A31E00DFCD35 /* Frameworks */,
+				1731DF521649A31E00DFCD35 /* Resources */,
+				1731DF531649A31E00DFCD35 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1731DF5B1649A31E00DFCD35 /* PBXTargetDependency */,
+			);
+			name = NativeAppEmbedWebViewTests;
+			productName = NativeAppEmbedWebViewTests;
+			productReference = 1731DF551649A31E00DFCD35 /* NativeAppEmbedWebViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1731DF281649A31E00DFCD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Adobe;
+			};
+			buildConfigurationList = 1731DF2B1649A31E00DFCD35 /* Build configuration list for PBXProject "NativeAppEmbedWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1731DF261649A31E00DFCD35;
+			productRefGroup = 1731DF321649A31E00DFCD35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1731DF301649A31E00DFCD35 /* NativeAppEmbedWebView */,
+				1731DF541649A31E00DFCD35 /* NativeAppEmbedWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1731DF2F1649A31E00DFCD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731DF401649A31E00DFCD35 /* InfoPlist.strings in Resources */,
+				1731DF491649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1731DF4C1649A31E00DFCD35 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1731DF521649A31E00DFCD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731DF611649A31E00DFCD35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1731DF531649A31E00DFCD35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1731DF2D1649A31E00DFCD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731DF421649A31E00DFCD35 /* main.m in Sources */,
+				1731DF461649A31E00DFCD35 /* AppDelegate.m in Sources */,
+				1731DF4F1649A31E00DFCD35 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1731DF501649A31E00DFCD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731DF641649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1731DF5B1649A31E00DFCD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1731DF301649A31E00DFCD35 /* NativeAppEmbedWebView */;
+			targetProxy = 1731DF5A1649A31E00DFCD35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1731DF3E1649A31E00DFCD35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1731DF3F1649A31E00DFCD35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1731DF471649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1731DF481649A31E00DFCD35 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1731DF4A1649A31E00DFCD35 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1731DF4B1649A31E00DFCD35 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1731DF5F1649A31E00DFCD35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1731DF601649A31E00DFCD35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1731DF651649A31E00DFCD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1731DF661649A31E00DFCD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1731DF681649A31E00DFCD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeAppEmbedWebView/NativeAppEmbedWebView-Prefix.pch";
+				INFOPLIST_FILE = "NativeAppEmbedWebView/NativeAppEmbedWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1731DF691649A31E00DFCD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeAppEmbedWebView/NativeAppEmbedWebView-Prefix.pch";
+				INFOPLIST_FILE = "NativeAppEmbedWebView/NativeAppEmbedWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1731DF6B1649A31E00DFCD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NativeAppEmbedWebView.app/NativeAppEmbedWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeAppEmbedWebView/NativeAppEmbedWebView-Prefix.pch";
+				INFOPLIST_FILE = "NativeAppEmbedWebViewTests/NativeAppEmbedWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1731DF6C1649A31E00DFCD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NativeAppEmbedWebView.app/NativeAppEmbedWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeAppEmbedWebView/NativeAppEmbedWebView-Prefix.pch";
+				INFOPLIST_FILE = "NativeAppEmbedWebViewTests/NativeAppEmbedWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1731DF2B1649A31E00DFCD35 /* Build configuration list for PBXProject "NativeAppEmbedWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1731DF651649A31E00DFCD35 /* Debug */,
+				1731DF661649A31E00DFCD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1731DF671649A31E00DFCD35 /* Build configuration list for PBXNativeTarget "NativeAppEmbedWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1731DF681649A31E00DFCD35 /* Debug */,
+				1731DF691649A31E00DFCD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1731DF6A1649A31E00DFCD35 /* Build configuration list for PBXNativeTarget "NativeAppEmbedWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1731DF6B1649A31E00DFCD35 /* Debug */,
+				1731DF6C1649A31E00DFCD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1731DF281649A31E00DFCD35 /* Project object */;
+}
