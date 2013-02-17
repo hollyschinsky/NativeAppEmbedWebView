@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="master.css" />
+        <title>Hello World</title>
+    </head>
+    <body onload="init();" id="stage" class="theme">
+        <a href="#" class="btn large" onclick="get_contacts();return false;">Get Contacts</a>
+        <a href="#" class="btn large" onclick="getLocation();">Get Location</a>
+        <a href="#" class="btn large" onclick="beep();">Beep</a>
+        <a href="#" class="btn large" onclick="vibrate();">Vibrate</a>
+        <a href="tel:411" class="btn large">Call 411</a>
+        <a href="#" class="btn large" onclick="show_pic();">Take Picture</a>
+        <a href="#" class="btn large" onclick="check_network();return false;">Check Network</a>
+        <dl>
+            <dt>Compass Heading:</dt><dd id="h">Off</dd>
+        </dl>
+        <a href="#" class="btn large" onclick="toggleCompass();return false;">Toggle Compass</a>
+        <dl id="accel-data">
+            <dt>Accel</dt>
+            <dt>X:</dt><dd id="x"></dd>
+            <dt>Y:</dt><dd id="y"></dd>
+            <dt>Z:</dt><dd id="z">&nbsp;</dd>
+        </dl>
+        <a href="#" class="btn large" onclick="toggleAccel();">Toggle Accelerometer</a>
+        
+        <div id="viewport" class="viewport" style="display: none;">
+            <img style="width:80px;height:80px" id="myImage" src="" />
+        </div>
+         
+        <script type="text/javascript" src="cordova-2.1.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="main.js"></script>
+    </body>
+</html>

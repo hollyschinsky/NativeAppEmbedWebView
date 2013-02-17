@@ -21,15 +21,42 @@
 		1731DF591649A31E00DFCD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1731DF371649A31E00DFCD35 /* Foundation.framework */; };
 		1731DF611649A31E00DFCD35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1731DF5F1649A31E00DFCD35 /* InfoPlist.strings */; };
 		1731DF641649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1731DF631649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m */; };
+		178FFC1F1649A3BE004B045A /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 178FFC1E1649A3BE004B045A /* Cordova.plist */; };
+		178FFC311649A7B6004B045A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC271649A7B6004B045A /* AddressBook.framework */; };
+		178FFC321649A7B6004B045A /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC281649A7B6004B045A /* AddressBookUI.framework */; };
+		178FFC331649A7B6004B045A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC291649A7B6004B045A /* AudioToolbox.framework */; };
+		178FFC341649A7B6004B045A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC2A1649A7B6004B045A /* AVFoundation.framework */; };
+		178FFC351649A7B6004B045A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC2B1649A7B6004B045A /* CoreLocation.framework */; };
+		178FFC361649A7B6004B045A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC2C1649A7B6004B045A /* CoreMedia.framework */; };
+		178FFC371649A7B6004B045A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC2D1649A7B6004B045A /* MediaPlayer.framework */; };
+		178FFC381649A7B6004B045A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC2E1649A7B6004B045A /* MobileCoreServices.framework */; };
+		178FFC391649A7B6004B045A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC2F1649A7B6004B045A /* QuartzCore.framework */; };
+		178FFC3A1649A7B6004B045A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178FFC301649A7B6004B045A /* SystemConfiguration.framework */; };
+		179D8FA21649AA9600C26100 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1704E7BF1649A9C50024F74A /* libCordova.a */; };
+		179D8FA41649AC6700C26100 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 179D8FA31649AC6700C26100 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1704E7BE1649A9C50024F74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178FFC211649A405004B045A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
 		1731DF5A1649A31E00DFCD35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1731DF281649A31E00DFCD35 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1731DF301649A31E00DFCD35;
 			remoteInfo = NativeAppEmbedWebView;
+		};
+		179D8FA01649AA6A00C26100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178FFC211649A405004B045A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,22 +65,35 @@
 		1731DF351649A31E00DFCD35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1731DF371649A31E00DFCD35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1731DF391649A31E00DFCD35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1731DF3D1649A31E00DFCD35 /* NativeAppEmbedWebView-Info.plist */ = {isa = PBXFileReference; path = "NativeAppEmbedWebView-Info.plist"; sourceTree = "<group>"; };
+		1731DF3D1649A31E00DFCD35 /* NativeAppEmbedWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeAppEmbedWebView-Info.plist"; sourceTree = "<group>"; };
 		1731DF3F1649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1731DF411649A31E00DFCD35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1731DF431649A31E00DFCD35 /* NativeAppEmbedWebView-Prefix.pch */ = {isa = PBXFileReference; path = "NativeAppEmbedWebView-Prefix.pch"; sourceTree = "<group>"; };
-		1731DF441649A31E00DFCD35 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1731DF431649A31E00DFCD35 /* NativeAppEmbedWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeAppEmbedWebView-Prefix.pch"; sourceTree = "<group>"; };
+		1731DF441649A31E00DFCD35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1731DF451649A31E00DFCD35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1731DF481649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1731DF4B1649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1731DF4D1649A31E00DFCD35 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1731DF4D1649A31E00DFCD35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1731DF4E1649A31E00DFCD35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1731DF551649A31E00DFCD35 /* NativeAppEmbedWebViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeAppEmbedWebViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1731DF561649A31E00DFCD35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1731DF5E1649A31E00DFCD35 /* NativeAppEmbedWebViewTests-Info.plist */ = {isa = PBXFileReference; path = "NativeAppEmbedWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		1731DF5E1649A31E00DFCD35 /* NativeAppEmbedWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeAppEmbedWebViewTests-Info.plist"; sourceTree = "<group>"; };
 		1731DF601649A31E00DFCD35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1731DF621649A31E00DFCD35 /* NativeAppEmbedWebViewTests.h */ = {isa = PBXFileReference; path = NativeAppEmbedWebViewTests.h; sourceTree = "<group>"; };
+		1731DF621649A31E00DFCD35 /* NativeAppEmbedWebViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAppEmbedWebViewTests.h; sourceTree = "<group>"; };
 		1731DF631649A31E00DFCD35 /* NativeAppEmbedWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAppEmbedWebViewTests.m; sourceTree = "<group>"; };
+		178FFC1E1649A3BE004B045A /* Cordova.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
+		178FFC211649A405004B045A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "../../../cordova-2.1.0/incubator-cordova-ios/CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
+		178FFC271649A7B6004B045A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		178FFC281649A7B6004B045A /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		178FFC291649A7B6004B045A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		178FFC2A1649A7B6004B045A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		178FFC2B1649A7B6004B045A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		178FFC2C1649A7B6004B045A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		178FFC2D1649A7B6004B045A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		178FFC2E1649A7B6004B045A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		178FFC2F1649A7B6004B045A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		178FFC301649A7B6004B045A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		179D8FA31649AC6700C26100 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +101,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179D8FA21649AA9600C26100 /* libCordova.a in Frameworks */,
+				178FFC311649A7B6004B045A /* AddressBook.framework in Frameworks */,
+				178FFC321649A7B6004B045A /* AddressBookUI.framework in Frameworks */,
+				178FFC331649A7B6004B045A /* AudioToolbox.framework in Frameworks */,
+				178FFC341649A7B6004B045A /* AVFoundation.framework in Frameworks */,
+				178FFC351649A7B6004B045A /* CoreLocation.framework in Frameworks */,
+				178FFC361649A7B6004B045A /* CoreMedia.framework in Frameworks */,
+				178FFC371649A7B6004B045A /* MediaPlayer.framework in Frameworks */,
+				178FFC381649A7B6004B045A /* MobileCoreServices.framework in Frameworks */,
+				178FFC391649A7B6004B045A /* QuartzCore.framework in Frameworks */,
+				178FFC3A1649A7B6004B045A /* SystemConfiguration.framework in Frameworks */,
 				1731DF361649A31E00DFCD35 /* UIKit.framework in Frameworks */,
 				1731DF381649A31E00DFCD35 /* Foundation.framework in Frameworks */,
 				1731DF3A1649A31E00DFCD35 /* CoreGraphics.framework in Frameworks */,
@@ -80,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1704E7BB1649A9C50024F74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1704E7BF1649A9C50024F74A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1731DF261649A31E00DFCD35 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +161,16 @@
 		1731DF341649A31E00DFCD35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				178FFC271649A7B6004B045A /* AddressBook.framework */,
+				178FFC281649A7B6004B045A /* AddressBookUI.framework */,
+				178FFC291649A7B6004B045A /* AudioToolbox.framework */,
+				178FFC2A1649A7B6004B045A /* AVFoundation.framework */,
+				178FFC2B1649A7B6004B045A /* CoreLocation.framework */,
+				178FFC2C1649A7B6004B045A /* CoreMedia.framework */,
+				178FFC2D1649A7B6004B045A /* MediaPlayer.framework */,
+				178FFC2E1649A7B6004B045A /* MobileCoreServices.framework */,
+				178FFC2F1649A7B6004B045A /* QuartzCore.framework */,
+				178FFC301649A7B6004B045A /* SystemConfiguration.framework */,
 				1731DF351649A31E00DFCD35 /* UIKit.framework */,
 				1731DF371649A31E00DFCD35 /* Foundation.framework */,
 				1731DF391649A31E00DFCD35 /* CoreGraphics.framework */,
@@ -113,6 +182,9 @@
 		1731DF3B1649A31E00DFCD35 /* NativeAppEmbedWebView */ = {
 			isa = PBXGroup;
 			children = (
+				179D8FA31649AC6700C26100 /* www */,
+				178FFC211649A405004B045A /* CordovaLib.xcodeproj */,
+				178FFC1E1649A3BE004B045A /* Cordova.plist */,
 				1731DF441649A31E00DFCD35 /* AppDelegate.h */,
 				1731DF451649A31E00DFCD35 /* AppDelegate.m */,
 				1731DF471649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard */,
@@ -168,6 +240,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				179D8FA11649AA6A00C26100 /* PBXTargetDependency */,
 			);
 			name = NativeAppEmbedWebView;
 			productName = NativeAppEmbedWebView;
@@ -212,6 +285,12 @@
 			mainGroup = 1731DF261649A31E00DFCD35;
 			productRefGroup = 1731DF321649A31E00DFCD35 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1704E7BB1649A9C50024F74A /* Products */;
+					ProjectRef = 178FFC211649A405004B045A /* CordovaLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1731DF301649A31E00DFCD35 /* NativeAppEmbedWebView */,
@@ -219,6 +298,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1704E7BF1649A9C50024F74A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 1704E7BE1649A9C50024F74A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1731DF2F1649A31E00DFCD35 /* Resources */ = {
@@ -228,6 +317,8 @@
 				1731DF401649A31E00DFCD35 /* InfoPlist.strings in Resources */,
 				1731DF491649A31E00DFCD35 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1731DF4C1649A31E00DFCD35 /* MainStoryboard_iPad.storyboard in Resources */,
+				178FFC1F1649A3BE004B045A /* Cordova.plist in Resources */,
+				179D8FA41649AC6700C26100 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +374,11 @@
 			isa = PBXTargetDependency;
 			target = 1731DF301649A31E00DFCD35 /* NativeAppEmbedWebView */;
 			targetProxy = 1731DF5A1649A31E00DFCD35 /* PBXContainerItemProxy */;
+		};
+		179D8FA11649AA6A00C26100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 179D8FA01649AA6A00C26100 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -372,7 +468,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeAppEmbedWebView/NativeAppEmbedWebView-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
 				INFOPLIST_FILE = "NativeAppEmbedWebView/NativeAppEmbedWebView-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Obj-C",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +547,7 @@
 				1731DF691649A31E00DFCD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1731DF6A1649A31E00DFCD35 /* Build configuration list for PBXNativeTarget "NativeAppEmbedWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +556,7 @@
 				1731DF6C1649A31E00DFCD35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
